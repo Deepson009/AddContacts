@@ -1,0 +1,64 @@
+.singlecontact{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+       
+}
+
+.singlecontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: -1px 1px 11px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 11px 1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 11px 1px rgba(0,0,0,0.75);
+    background-color: rgb(253, 253, 253);   
+    border-radius: 7px;
+}
+.singlecontainer:hover{
+    background-color: rgb(243, 110, 110);
+    /* cursor: pointer; */
+    border-radius: 7px;
+    /* padding: 10px; */
+}
+.userdiv{
+    width: 5%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.icon{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(165, 42, 42, 0.685);
+}
+.emaildiv{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 50%;
+    /* border: 1px solid black; */
+    
+}
+span{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.trasdiv{
+    margin-right: 20px;
+    /* border: 1px solid blue; */
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+.thras{
+    color: red;
+    cursor: pointer;
+}
